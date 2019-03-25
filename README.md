@@ -66,18 +66,18 @@ If you want to train your models with your own datasets, we guess that you could
 	--channel			number of channels of the generator
 	--norm				normalization layer used in our model
 	--layerD 			depth of the discriminator
-	--numberclasses		number of semantic classes of the 
+	--numberclasses			number of semantic classes of the 
 	--alpha				weight of cycle loss
 	--gamma				weight of diversity loss
 	--Lambda			consistency parameter(<= 1.0)
 	--lr 				learning rate
 	--epoch 			total number of epoch
-	--decayepoch		the epoch that learning rate starts to decay(<= --epoch)
+	--decayepoch			the epoch that learning rate starts to decay(<= --epoch)
 	--batchsize			size of each batch(it must be 1?)
-	--rescalesize		data augmentation, first scale to this size
+	--rescalesize			data augmentation, first scale to this size
 	--cropsize			data augmentation, then crop to this size
 	--resume			if resume training process
-	--currentepoch		the epoch it resumes from
+	--currentepoch			the epoch it resumes from
 	--gpu 				select your GPU to train the model, only one GPU allowed
 
 
